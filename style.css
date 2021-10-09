@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.favorites > div {
+  padding-left: 20px;
+  position: relative;
+}
+
+.favorites > div::before {
+  content: " ";
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.animal-list li {
+  cursor: pointer;
+}
